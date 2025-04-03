@@ -426,6 +426,9 @@ footer {
 @media (max-width: 768px) {
   header {
     padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
   }
 
   .container {

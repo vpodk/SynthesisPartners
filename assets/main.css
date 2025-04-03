@@ -265,15 +265,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--light);
-  color: var(--primary);
-  border-radius: 50%;
-  transition: background-color 0.3s, color 0.3s;
+  /* background-color: var(--light); */
+  /* color: var(--primary); */
+  /* border-radius: 50%; */
+  /* transition: background-color 0.3s, color 0.3s; */
 }
 
 .team-social a:hover {
-  background-color: var(--primary);
-  color: white;
+  /* background-color: var(--primary); */
+  /* color: white; */
 }
 
 /* Contact Section */

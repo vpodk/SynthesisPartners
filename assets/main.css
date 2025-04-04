@@ -259,9 +259,9 @@ header {
   gap: 10px;
 }
 
-.team-social a {
-  width: 30px;
-  height: 30px;
+.team-social img {
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,11 +269,6 @@ header {
   /* color: var(--primary); */
   /* border-radius: 50%; */
   /* transition: background-color 0.3s, color 0.3s; */
-}
-
-.team-social a:hover {
-  /* background-color: var(--primary); */
-  /* color: white; */
 }
 
 /* Contact Section */

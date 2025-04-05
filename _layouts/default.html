@@ -160,13 +160,13 @@ layout: base
       <p>{{ site.data.services.description }}</p>
     </div>
     <div class="services-grid">
-      {% for card in site.data.services.cards %}
+      {%- for card in site.data.services.cards -%}
       <div class="service-card">
         <div class="service-icon">{{ card.icon }}</div>
         <h3>{{ card.name }}</h3>
         <p>{{ card.description }}</p>
       </div>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -179,13 +179,13 @@ layout: base
       <p>{{ site.data.industries.description }}</p>
     </div>
     <div class="services-grid">
-      {% for card in site.data.industries.cards %}
+      {%- for card in site.data.industries.cards -%}
       <div class="service-card">
         <div class="service-icon">{{ card.icon }}</div>
         <h3>{{ card.name }}</h3>
         <p>{{ card.description }}</p>
       </div>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -198,7 +198,7 @@ layout: base
       <p>{{ site.data.team.description }}</p>
     </div>
     <div class="team-grid">
-      {% for member in site.data.team.members %}
+      {%- for member in site.data.team.members -%}
       <div class="team-member">
         <div class="team-photo">
           <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">
@@ -210,13 +210,13 @@ layout: base
           <p class="role">{{ member.role }}</p>
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">
-            {% for company in member.companies %}
+            {%- for company in member.companies -%}
             <img src="{{ company.icon | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
-            {% endfor %}
+            {%- endfor -%}
           </div>
         </div>
       </div>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -229,13 +229,13 @@ layout: base
       <p>{{ site.data.differentiation.description }}</p>
     </div>
     <div class="services-grid">
-      {% for card in site.data.differentiation.cards %}
+      {%- for card in site.data.differentiation.cards -%}
       <div class="service-card">
         <div class="service-icon">{{ card.icon }}</div>
         <h3>{{ card.name }}</h3>
         <p>{{ card.description }}</p>
       </div>
-      {% endfor %}
+      {%- endfor -%}
     </div>
   </div>
 </section>

@@ -80,7 +80,7 @@ layout: base
               <path d="M-40,-40 Q-110,-110 -150,-110" stroke="#5D6BF8" stroke-width="4" fill="none" />
               <circle cx="-150" cy="-110" r="45" fill="url(#pevcGradient1)" />
               <text x="-150" y="-105" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
-                text-anchor="middle">Tech</text>
+                text-anchor="middle">PE/VC</text>
             </g>
 
             <!-- Team collaboration elements with improved styling -->
@@ -152,15 +152,6 @@ layout: base
         </svg>
       </div>
     </div>
-
-    <!-- Company Logos Section -->
-    <!-- <div class="company-logos">
-      <img src="/home/ubuntu/images/logos/aws.png" alt="AWS" class="company-logo">
-      <img src="/home/ubuntu/images/logos/meta.png" alt="Meta" class="company-logo">
-      <img src="/home/ubuntu/images/logos/tiktok.png" alt="TikTok" class="company-logo">
-      <img src="/home/ubuntu/images/logos/linkedin.png" alt="LinkedIn" class="company-logo">
-      <img src="/home/ubuntu/images/logos/credit_karma.png" alt="Credit Karma" class="company-logo">
-    </div> -->
   </div>
 </section>
 
@@ -264,36 +255,6 @@ layout: base
 
 <!-- Team Section -->
 <section id="team" class="team">
-  <div class="container">
-    <div class="section-title">
-      <h2>Meet Our Team</h2>
-      <p>Industry leaders from top AI labs and tech companies with proven track records of building successful products.
-      </p>
-    </div>
-    <div class="team-grid">
-      {% for member in site.team %}
-      <div class="team-member">
-        <div class="team-photo">
-          <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">
-        </div>
-        <div class="team-info">
-          <h3>{{ member.name }}</h3>
-          <p class="role">{{ member.role }}</p>
-          <p class="bio">{{ member.bio }}</p>
-          <div class="team-social">
-            {% for company in member.companies %}
-            <img src="{{ company.icon | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- Team Section -->
-<section id="team" class="team" style="display: none;">
   <div class="container">
     <div class="section-title">
       <h2>Meet Our Team</h2>

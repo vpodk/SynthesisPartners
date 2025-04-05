@@ -42,20 +42,20 @@ layout: base
                 </linearGradient>
               </defs>
               <path d="M50,25 Q150,25 200,125" stroke="#8B9EFF" stroke-width="4" fill="none" />
-              <circle cx="200" cy="125" r="40" fill="url(#usersGradient)" />
+              <circle cx="200" cy="125" r="45" fill="url(#usersGradient)" />
               <text x="200" y="130" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
                 text-anchor="middle">Users</text>
 
-              <!-- Segment 2 - GTM/Sales (ENLARGED & CENTERED) -->
+              <!-- Segment 2 - GTM/Sales (REDUCED SIZE) -->
               <defs>
                 <linearGradient id="gtmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#5D6BF8" stop-opacity="1" />
-                  <stop offset="100%" stop-color="#4152D9" stop-opacity="0.8" />
+                  <stop offset="0%" stop-color="#5D6BF8" stop-opacity="0.9" />
+                  <stop offset="100%" stop-color="#5D6BF8" stop-opacity="0.6" />
                 </linearGradient>
               </defs>
-              <path d="M-30,50 Q-120,100 -180,60" stroke="#5D6BF8" stroke-width="6" fill="none" />
-              <circle cx="-180" cy="60" r="80" fill="url(#gtmGradient)" />
-              <text x="-180" y="65" font-family="Inter, sans-serif" font-size="24" font-weight="bold" fill="white"
+              <path d="M-30,50 Q-90,70 -130,60" stroke="#5D6BF8" stroke-width="4" fill="none" />
+              <circle cx="-130" cy="60" r="45" fill="url(#gtmGradient)" />
+              <text x="-130" y="65" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
                 text-anchor="middle">GTM/Sales</text>
 
               <!-- Segment 3 - Growth -->
@@ -66,33 +66,21 @@ layout: base
                 </linearGradient>
               </defs>
               <path d="M0,-50 Q0,-150 125,-160" stroke="#8B9EFF" stroke-width="4" fill="none" />
-              <circle cx="125" cy="-160" r="40" fill="url(#growthGradient)" />
+              <circle cx="125" cy="-160" r="45" fill="url(#growthGradient)" />
               <text x="125" y="-155" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
                 text-anchor="middle">Growth</text>
 
-              <!-- Segment 4 - Tech -->
+              <!-- PE/VC in place of Tech -->
               <defs>
-                <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#8B9EFF" stop-opacity="0.9" />
-                  <stop offset="100%" stop-color="#8B9EFF" stop-opacity="0.6" />
+                <linearGradient id="pevcGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#5D6BF8" stop-opacity="0.9" />
+                  <stop offset="100%" stop-color="#5D6BF8" stop-opacity="0.6" />
                 </linearGradient>
               </defs>
-              <path d="M-40,-40 Q-110,-110 -150,-110" stroke="#8B9EFF" stroke-width="4" fill="none" />
-              <circle cx="-150" cy="-110" r="40" fill="url(#techGradient)" />
+              <path d="M-40,-40 Q-110,-110 -150,-110" stroke="#5D6BF8" stroke-width="4" fill="none" />
+              <circle cx="-150" cy="-110" r="45" fill="url(#pevcGradient1)" />
               <text x="-150" y="-105" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
                 text-anchor="middle">Tech</text>
-
-              <!-- New Segment 5 - PE/VC -->
-              <defs>
-                <linearGradient id="pevcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#8B9EFF" stop-opacity="0.9" />
-                  <stop offset="100%" stop-color="#8B9EFF" stop-opacity="0.6" />
-                </linearGradient>
-              </defs>
-              <path d="M40,-30 Q120,-70 160,-30" stroke="#8B9EFF" stroke-width="4" fill="none" />
-              <circle cx="160" cy="-30" r="40" fill="url(#pevcGradient)" />
-              <text x="160" y="-25" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white"
-                text-anchor="middle">PE/VC</text>
             </g>
 
             <!-- Team collaboration elements with improved styling -->
@@ -206,14 +194,16 @@ layout: base
         <p>User-centered UI/UX design that delivers exceptional experiences and drives engagement.</p>
       </div>
       <div class="service-card">
-        <div class="service-icon">📋</div>
-        <h3>Implementation Support</h3>
-        <p>Detailed PRD development and hands-on support working directly with your engineering team.</p>
+        <div class="service-icon">🛠️</div>
+        <h3>Implementation & Prototyping</h3>
+        <p>Detailed PRD development, engineering support, and rapid prototyping to validate ideas and build working
+          solutions quickly.</p>
       </div>
       <div class="service-card">
-        <div class="service-icon">🛠️</div>
-        <h3>Rapid Prototyping</h3>
-        <p>From concept to working prototype with our expert engineering resources to validate ideas quickly.</p>
+        <div class="service-icon">💼</div>
+        <h3>Investment Advice</h3>
+        <p>Advising VC/PE firms in their investment choices with technical due diligence and market opportunity
+          assessment.</p>
       </div>
     </div>
   </div>

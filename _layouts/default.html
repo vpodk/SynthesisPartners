@@ -207,7 +207,7 @@ layout: base
       <h2>Industries We Serve</h2>
       <p>We specialize in helping founders build products that resonate with customers across these key sectors.</p>
     </div>
-    <div class="services-grid" style="display: none;">
+    <div class="services-grid">
       {% for industry in site.data.industries %}
       <div class="service-card">
         <div class="service-icon">{{ industry.icon }}</div>
@@ -215,49 +215,6 @@ layout: base
         <p>{{ industry.description }}</p>
       </div>
       {% endfor %}
-    </div>
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">💰</div>
-        <h3>FinTech</h3>
-        <p>Credit ecosystems, finance lead generation platforms, lending marketplaces, payment solutions, and wealth
-          management tools.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🔌</div>
-        <h3>Vertical SaaS</h3>
-        <p>AI/LLM-powered vertical SaaS businesses including legal tech, healthtech, proptech, and specialized
-          enterprise solutions.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">⚙️</div>
-        <h3>AI/ML Infrastructure</h3>
-        <p>LLM/AI observability platforms, hyperscalers, AI model deployment frameworks, and ML infrastructure
-          providers.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🤖</div>
-        <h3>Agentic Applications</h3>
-        <p>AI systems that automate specialized tasks within business workflows, including CRM agents, credit scoring
-          assistants, and autonomous business process tools.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🎬</div>
-        <h3>Creator Economy</h3>
-        <p>AI/ML-powered social media platforms, content monetization tools, creator analytics solutions, and
-          community-building platforms.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🎤</div>
-        <h3>Voice & Video Infrastructure</h3>
-        <p>Voice synthesis APIs, video generation platforms, and applications for auto-generated sales training
-          materials using tools like Vapi, ElevenLabs, and HeyGen.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🔬</div>
-        <h3>Deep Tech</h3>
-        <p>AI chip accelerators, specialized hardware solutions, and cutting-edge research applications.</p>
-      </div>
     </div>
   </div>
 </section>

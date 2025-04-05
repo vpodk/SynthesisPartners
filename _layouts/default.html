@@ -259,7 +259,7 @@ layout: base
       {% for member in site.team %}
       <div class="team-member">
         <div class="team-photo">
-          <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+          <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">
         </div>
         <div class="team-info">
           <h3>{{ member.name }}</h3>
@@ -267,7 +267,7 @@ layout: base
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">
             {% for company in member.companies %}
-            <img src='{{ company.icon | relative_url }}' alt="{{ company.name }}">
+            <img src="{{ company.icon | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
             {% endfor %}
           </div>
         </div>

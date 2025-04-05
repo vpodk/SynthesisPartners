@@ -213,7 +213,7 @@ layout: base
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">
             {%- for company in member.companies -%}
-            {%- assign icon = site.data.icons[company]] -%}
+            {%- assign icon = site.data.icons[company] -%}
             <img src="{{ icon.path | relative_url }}" alt="{{ icon.name }}" title="{{ icon.name }}">
             {%- endfor -%}
           </div>

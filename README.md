@@ -1,5 +1,5 @@
 ---
-title: null
+title: Synthesis Partners | Tech Startup Consultancy
 ---
 
 # SynthesisPartners

@@ -14,6 +14,7 @@ members:
         icon: "/assets/icons/tiktok.png"
       - name: "Credit Karma"
         icon: "/assets/icons/creditkarma.png"
+
   - name: "Fan Sun"
     role: "AI/ML Algorithm and Founder Strategy"
     bio: "Former Product and Science lead at Meta AI and TikTok with deep expertise in commercializing AI/ML innovations."
@@ -24,6 +25,7 @@ members:
         icon: "/assets/icons/meta.png"
       - name: "TikTok"
         icon: "/assets/icons/tiktok.png"
+
   - name: "Valentyn Podkamennyi"
     role: "Engineering Implementation"
     bio: "Tech lead at HubSpot, successful tech entrepreneur, and former Wayfair engineer specializing in scalable implementations."
@@ -34,6 +36,7 @@ members:
         icon: "/assets/icons/hubspot.png"
       - name: "Google"
         icon: "/assets/icons/google.png"
+
   - name: "Shizun Ge"
     role: "Deep Tech Advisor"
     bio: "Tech Lead at Google TPU team with extensive expertise in hardware acceleration for AI and complex technical infrastructure."
@@ -42,6 +45,7 @@ members:
     companies:
       - name: "Google"
         icon: "/assets/icons/google.png"
+
   - name: "Mengshi Zhang"
     role: "AI/ML/Deep Tech Advisor"
     bio: "Former AI/ML tech lead at Meta AI providing cutting-edge expertise in algorithm development and implementation."
@@ -50,6 +54,7 @@ members:
     companies:
       - name: "Meta"
         icon: "/assets/icons/meta.png"
+
   - name: "Will Cruz"
     role: "UI/UX Design"
     bio: "Former Design Lead at LinkedIn and SAP with Parsons education, specializing in intuitive interfaces for complex products."

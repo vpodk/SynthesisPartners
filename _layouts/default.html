@@ -197,12 +197,11 @@ layout: base
 <section id="team" class="team">
   <div class="container">
     <div class="section-title">
-      <h2>Meet Our Team</h2>
-      <p>Industry leaders from top AI labs and tech companies with proven track records of building successful products.
-      </p>
+      <h2>{{ site.data.team.title }}</h2>
+      <p>{{ site.data.team.description }}</p>
     </div>
     <div class="team-grid">
-      {% for member in site.data.team %}
+      {% for member in site.data.team.members %}
       <div class="team-member">
         <div class="team-photo">
           <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">

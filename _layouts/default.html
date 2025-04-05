@@ -206,8 +206,8 @@ layout: base
         <div class="team-info">
           {%- assign icon = site.data.icons["linkedin"] -%}
           <h3>{{ member.name }} <a href="{{ member.linkedin }}" target="_blank"><img
-                src="{{ icon.path | relative_url }}" alt="{{ icon.name }}" title="{{ icon.name }}"
-                style="vertical-align: middle"></a>
+                src="{{ icon.path | relative_url }}" alt="{{ icon.name }} profile of {{ member.name }}"
+                title="Visit {{ member.name }} on {{ icon.name }}" style="vertical-align: middle"></a>
           </h3>
           <p class="role">{{ member.role }}</p>
           <p class="bio">{{ member.bio }}</p>

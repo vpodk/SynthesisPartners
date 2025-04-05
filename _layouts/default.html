@@ -204,9 +204,11 @@ layout: base
           <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">
         </div>
         <div class="team-info">
+          {%- assign icon = site.data.icons["linkedin"]] -%}
           <h3>{{ member.name }} <a href="{{ member.linkedin }}" target="_blank"><img
-                src="{{ '/assets/icons/linkedin.png' | relative_url }}" alt="LinkedIn" title="LinkedIn"
-                style="vertical-align: middle"></a></h3>
+                src="{{ icon.path | relative_url }}" alt="{{ icon.name }}" title="{{ icon.name }}"
+                style="vertical-align: middle"></a>
+          </h3>
           <p class="role">{{ member.role }}</p>
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">

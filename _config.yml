@@ -2,6 +2,37 @@ title: "Synthesis Partners | Tech Startup Consultancy"
 description: "Synthesis Partners | Tech Startup Consultancy"
 author: "Valentin Podkamennyi"
 
+team:
+  - name: "Carol Zhu"
+    role: "Product and Founder Strategy"
+    bio: "Former Product leader at AWS AI, TikTok, Credit Karma and notable AI startups with extensive experience guiding founders to PMF."
+    photo: "/assets/team/carol_zhu.jpeg"
+    companies:
+      - name: "Amazon"
+        icon: "/assets/icons/amazon.png"
+      - name: "TikTok"
+        icon: "/assets/icons/tiktok.png"
+      - name: "Credit Karma"
+        icon: "/assets/icons/creditkarma.png"
+  - name: "Fan Sun"
+    role: "AI/ML Algorithm and Founder Strategy"
+    bio: "Former Product and Science lead at Meta AI and TikTok with deep expertise in commercializing AI/ML innovations."
+    photo: "/assets/team/fan_sun.jpeg"
+    companies:
+      - name: "Meta"
+        icon: "/assets/icons/meta.png"
+      - name: "TikTok"
+        icon: "/assets/icons/tiktok.png"
+  - name: "Valentyn Podkamennyi"
+    role: "Engineering Implementation"
+    bio: "Tech lead at HubSpot, successful tech entrepreneur, and former Wayfair engineer specializing in scalable implementations."
+    photo: "/assets/team/valentyn_podkamennyi.jpeg"
+    companies:
+      - name: "HubSpot"
+        icon: "/assets/icons/hubspot.png"
+      - name: "Google"
+        icon: "/assets/icons/google.png"
+
 # theme: "minima"
 
 rss: rss

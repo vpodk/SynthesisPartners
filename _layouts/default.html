@@ -255,8 +255,8 @@ layout: base
       <p>Industry leaders from top AI labs and tech companies with proven track records of building successful products.
       </p>
     </div>
-    <!--
-    <div class="team-grid">
+
+    <div class="team-grid" style="display: none;">
       {% for member in site.team %}
       <div class="team-member">
         <div class="team-photo">
@@ -267,15 +267,15 @@ layout: base
           <p class="role">{{ member.role }}</p>
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">
-          {% for company in member.companies %}
+            {% for company in member.companies %}
             <img src='{{ company.icon | relative_url }}' alt="{{ company.name }}">
-          {% endfor %}
+            {% endfor %}
           </div>
         </div>
       </div>
       {% endfor %}
     </div>
-    -->
+
     <div class="team-grid">
       <div class="team-member">
         <div class="team-photo">

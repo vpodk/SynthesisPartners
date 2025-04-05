@@ -32,6 +32,27 @@ team:
         icon: "/assets/icons/hubspot.png"
       - name: "Google"
         icon: "/assets/icons/google.png"
+  - name: "Shizun Ge"
+    role: "Deep Tech Advisor"
+    bio: "Tech Lead at Google TPU team with extensive expertise in hardware acceleration for AI and complex technical infrastructure."
+    photo: "/assets/team/shizun_ge.jpeg"
+    companies:
+      - name: "Google"
+        icon: "/assets/icons/google.png"
+  - name: "Mengshi Zhang"
+    role: "AI/ML/Deep Tech Advisor"
+    bio: "Former AI/ML tech lead at Meta AI providing cutting-edge expertise in algorithm development and implementation."
+    photo: "/assets/team/mengshi_zhang.jpeg"
+    companies:
+      - name: "Meta"
+        icon: "/assets/icons/meta.png"
+  - name: "Will Cruz"
+    role: "UI/UX Design"
+    bio: "Former Design Lead at LinkedIn and SAP with Parsons education, specializing in intuitive interfaces for complex products."
+    photo: "/assets/team/will_cruz.jpeg"
+    companies:
+      - name: "LinkedIn"
+        icon: "/assets/icons/linkedin.png"
 
 # theme: "minima"
 

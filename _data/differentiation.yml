@@ -1,0 +1,27 @@
+title: What Makes Your Product Stand Out?
+description: We help founders identify and develop their unique value proposition in the market.
+
+cards:
+  - name: "Market Research"
+    description: "Deep analysis of competitive landscape and user needs to identify underserved opportunities."
+    icon: 🔍
+
+  - name: "Feature Differentiation"
+    description: "Prioritize product features that create meaningful separation from competitors."
+    icon: 💡
+
+  - name: "User Testing"
+    description: "Rigorous validation methods to ensure your solution resonates with target customers."
+    icon: 📊
+
+  - name: "Product Positioning and Sales"
+    description: "Crafting compelling narratives that highlight your product's unique advantages in front of your customers."
+    icon: 📣
+
+  - name: "Integration Opportunities"
+    description: "Identifying ecosystem partnerships that amplify your product's value proposition."
+    icon: 🧩
+
+  - name: "Roadmap Planning"
+    description: "Strategic product evolution plans that maintain competitive advantage over time."
+    icon: 🛣️<

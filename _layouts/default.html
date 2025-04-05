@@ -229,41 +229,17 @@ layout: base
 <section id="differentiator" class="services">
   <div class="container">
     <div class="section-title">
-      <h2>What Makes Your Product Stand Out?</h2>
-      <p>We help founders identify and develop their unique value proposition in the market.</p>
+      <h2>{{ site.data.differentiation.title }}</h2>
+      <p>{{ site.data.differentiation.description }}</p>
     </div>
     <div class="services-grid">
+      {% for card in site.data.differentiation.cards %}
       <div class="service-card">
-        <div class="service-icon">🔍</div>
-        <h3>Market Research</h3>
-        <p>Deep analysis of competitive landscape and user needs to identify underserved opportunities.</p>
+        <div class="service-icon">{{ card.icon }}</div>
+        <h3>{{ card.name }}</h3>
+        <p>{{ card.description }}</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">💡</div>
-        <h3>Feature Differentiation</h3>
-        <p>Prioritize product features that create meaningful separation from competitors.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">📊</div>
-        <h3>User Testing</h3>
-        <p>Rigorous validation methods to ensure your solution resonates with target customers.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">📣</div>
-        <h3>Product Positioning and Sales</h3>
-        <p>Crafting compelling narratives that highlight your product's unique advantages in front of your customers.
-        </p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🧩</div>
-        <h3>Integration Opportunities</h3>
-        <p>Identifying ecosystem partnerships that amplify your product's value proposition.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🛣️</div>
-        <h3>Roadmap Planning</h3>
-        <p>Strategic product evolution plans that maintain competitive advantage over time.</p>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

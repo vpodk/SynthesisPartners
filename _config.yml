@@ -1,6 +1,10 @@
 title: "Synthesis Partners | Tech Startup Consultancy"
 description: "Synthesis Partners | Tech Startup Consultancy"
-author: "Valentin Podkamennyi"
+
+author:
+  name: Valentin Podkamennyi
+  url: https://vpodk.com
+  twitter: vpodk
 
 # theme: "minima"
 

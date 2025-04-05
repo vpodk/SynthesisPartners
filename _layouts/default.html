@@ -292,6 +292,36 @@ layout: base
   </div>
 </section>
 
+<!-- Team Section -->
+<section id="team" class="team" style="display: none;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Meet Our Team</h2>
+      <p>Industry leaders from top AI labs and tech companies with proven track records of building successful products.
+      </p>
+    </div>
+    <div class="team-grid">
+      {% for member in site.data.team %}
+      <div class="team-member">
+        <div class="team-photo">
+          <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" title="{{ member.name }}">
+        </div>
+        <div class="team-info">
+          <h3>{{ member.name }}</h3>
+          <p class="role">{{ member.role }}</p>
+          <p class="bio">{{ member.bio }}</p>
+          <div class="team-social">
+            {% for company in member.companies %}
+            <img src="{{ company.icon | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <!-- What Makes Your Product Stand Out Section -->
 <section id="differentiator" class="services">
   <div class="container">

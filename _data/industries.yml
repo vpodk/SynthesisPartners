@@ -1,0 +1,21 @@
+- name: FinTech
+  description: "Credit ecosystems, finance lead generation platforms, lending marketplaces, payment solutions, and wealth management tools."
+  icon: 💰
+- name: "Vertical SaaS"
+  description: "AI/LLM-powered vertical SaaS businesses including legal tech, healthtech, proptech, and specialized enterprise solutions."
+  icon: 🔌
+- name: "AI/ML Infrastructure"
+  description: "LLM/AI observability platforms, hyperscalers, AI model deployment frameworks, and ML infrastructure providers."
+  icon: ⚙️
+- name: "Agentic Applications"
+  description: "AI systems that automate specialized tasks within business workflows, including CRM agents, credit scoring assistants, and autonomous business process tools."
+  icon: 🤖
+- name: "Creator Economy"
+  description: "AI/ML-powered social media platforms, content monetization tools, creator analytics solutions, and community-building platforms."
+  icon: 🎬
+- name: "Voice & Video Infrastructure"
+  description: "Voice synthesis APIs, video generation platforms, and applications for auto-generated sales training materials using tools like Vapi, ElevenLabs, and HeyGen."
+  icon: 🎤
+- name: "Deep Tech"
+  description: "AI chip accelerators, specialized hardware solutions, and cutting-edge research applications."
+  icon: 🔬

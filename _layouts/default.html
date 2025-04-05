@@ -207,6 +207,15 @@ layout: base
       <h2>Industries We Serve</h2>
       <p>We specialize in helping founders build products that resonate with customers across these key sectors.</p>
     </div>
+    <div class="services-grid" style="display: none;">
+      {% for industry in site.data.industries %}
+      <div class="service-card">
+        <div class="service-icon">{{ industry.icon }}</div>
+        <h3>{{ industry.name }}</h3>
+        <p>{{ industry.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
     <div class="services-grid">
       <div class="service-card">
         <div class="service-icon">💰</div>

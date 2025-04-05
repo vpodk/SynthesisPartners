@@ -1,0 +1,27 @@
+amazon:
+  name: Amazon
+  path: /assets/icons/amazon.png
+
+creditkarma:
+  name: Credit Karma
+  path: /assets/icons/creditkarma.png
+
+google:
+  name: Google
+  path: /assets/icons/google.png
+
+hubspot:
+  name: HubSpot
+  path: /assets/icons/hubspot.png
+
+linkedin:
+  name: LinkedIn
+  path: /assets/icons/linkedin.png
+
+meta:
+  name: Meta
+  path: /assets/icons/meta.png
+
+tiktok:
+  name: TikTok
+  path: /assets/icons/tiktok.png

@@ -9,13 +9,7 @@ members:
       startups with extensive experience guiding founders to PMF.
     linkedin: https://www.linkedin.com/in/carol-zhu-03415014/
     photo: "/assets/team/carol_zhu.jpeg"
-    companies:
-      - name: Amazon
-        icon: "/assets/icons/amazon.png"
-      - name: TikTok
-        icon: "/assets/icons/tiktok.png"
-      - name: Credit Karma
-        icon: "/assets/icons/creditkarma.png"
+    companies: [amazon, tiktok, creditkarma]
 
   - name: Fan Sun
     role: AI/ML Algorithm and Founder Strategy
@@ -24,11 +18,7 @@ members:
       in commercializing AI/ML innovations.
     linkedin: https://www.linkedin.com/in/fan-sun-1109a7b/
     photo: "/assets/team/fan_sun.jpeg"
-    companies:
-      - name: Meta
-        icon: "/assets/icons/meta.png"
-      - name: TikTok
-        icon: "/assets/icons/tiktok.png"
+    companies: [meta, tiktok]
 
   - name: Valentyn Podkamennyi
     role: Engineering Implementation
@@ -37,11 +27,7 @@ members:
       Wayfair engineer specializing in scalable implementations.
     linkedin: https://www.linkedin.com/in/vpodk/
     photo: "/assets/team/valentyn_podkamennyi.jpeg"
-    companies:
-      - name: HubSpot
-        icon: "/assets/icons/hubspot.png"
-      - name: Google
-        icon: "/assets/icons/google.png"
+    companies: [hubspot, google]
 
   - name: Shizun Ge
     role: Deep Tech Advisor
@@ -50,9 +36,7 @@ members:
       acceleration for AI and complex technical infrastructure.
     linkedin: https://www.linkedin.com/in/shizunge/
     photo: "/assets/team/shizun_ge.jpeg"
-    companies:
-      - name: Google
-        icon: "/assets/icons/google.png"
+    companies: [google]
 
   - name: Mengshi Zhang
     role: AI/ML/Deep Tech Advisor
@@ -61,9 +45,7 @@ members:
       algorithm development and implementation.
     linkedin: https://www.linkedin.com/in/mengshi-zhang/
     photo: "/assets/team/mengshi_zhang.jpeg"
-    companies:
-      - name: Meta
-        icon: "/assets/icons/meta.png"
+    companies: [meta]
 
   - name: Will Cruz
     role: UI/UX Design
@@ -72,6 +54,4 @@ members:
       in intuitive interfaces for complex products.
     linkedin: https://www.linkedin.com/in/will146/
     photo: "/assets/team/will_cruz.jpeg"
-    companies:
-      - name: LinkedIn
-        icon: "/assets/icons/linkedin.png"
+    companies: [linkedin]

@@ -211,7 +211,8 @@ layout: base
           <p class="bio">{{ member.bio }}</p>
           <div class="team-social">
             {%- for company in member.companies -%}
-            <img src="{{ company.icon | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
+            {%- assign icon = site.data.icons[company]] -%}
+            <img src="{{ icon.path | relative_url }}" alt="{{ icon.name }}" title="{{ icon.name }}">
             {%- endfor -%}
           </div>
         </div>

@@ -163,39 +163,13 @@ layout: base
       <p>From strategy to execution, we provide end-to-end support for tech startups at crucial early stages.</p>
     </div>
     <div class="services-grid">
+      {% for service in site.data.services %}
       <div class="service-card">
-        <div class="service-icon">🎯</div>
-        <h3>Product and Marketing Strategy</h3>
-        <p>Define your product positioning, market fit, and growth roadmap with our expert guidance.</p>
+        <div class="service-icon">{{ service.icon }}</div>
+        <h3>{{ service.name }}</h3>
+        <p>{{ service.description }}</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">🚀</div>
-        <h3>Go-To-Market Strategy</h3>
-        <p>Identify target customers, develop messaging, and create outreach plans to drive adoption. We can talk to
-          your customers with you!</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">⚙️</div>
-        <h3>Technical Architecture</h3>
-        <p>Expert guidance on infrastructure, AI/ML implementation, and scalable technology solutions.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🎨</div>
-        <h3>Product Design</h3>
-        <p>User-centered UI/UX design that delivers exceptional experiences and drives engagement.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">🛠️</div>
-        <h3>Implementation & Prototyping</h3>
-        <p>Detailed PRD development, engineering support, and rapid prototyping to validate ideas and build working
-          solutions quickly.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon">💼</div>
-        <h3>Investment Advice</h3>
-        <p>Advising VC/PE firms in their investment choices with technical due diligence and market opportunity
-          assessment.</p>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>

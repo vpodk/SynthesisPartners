@@ -1,0 +1,18 @@
+- name: Product and Marketing Strategy
+  description: "Define your product positioning, market fit, and growth roadmap with our expert guidance."
+  icon: 🎯
+- name: "Go-To-Market Strategy"
+  description: "Identify target customers, develop messaging, and create outreach plans to drive adoption. We can talk to your customers with you!"
+  icon: 🚀
+- name: "Technical Architecture"
+  description: "Expert guidance on infrastructure, AI/ML implementation, and scalable technology solutions."
+  icon: ⚙️
+- name: "Product Design"
+  description: "User-centered UI/UX design that delivers exceptional experiences and drives engagement."
+  icon: 🎨
+- name: "Implementation & Prototyping"
+  description: "Detailed PRD development, engineering support, and rapid prototyping to validate ideas and build working solutions quickly."
+  icon: 🛠️
+- name: "Investment Advice"
+  description: "Advising VC/PE firms in their investment choices with technical due diligence and market opportunity assessment."
+  icon: 💼<
